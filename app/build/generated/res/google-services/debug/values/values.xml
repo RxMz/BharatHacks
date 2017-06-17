@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">638427279114-mfk8of4h27ujhek3sej58ub50f1b6i3d.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://bharathacks-a0e70.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">638427279114</string>
+    <string name="google_api_key" translatable="false">AIzaSyCPJeMzrqz-ufYPe0ndjnIx3Kd9H9msWn4</string>
+    <string name="google_app_id" translatable="false">1:638427279114:android:848b0a17af5c9f9c</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCPJeMzrqz-ufYPe0ndjnIx3Kd9H9msWn4</string>
+    <string name="google_storage_bucket" translatable="false">bharathacks-a0e70.appspot.com</string>
+    <string name="project_id" translatable="false">bharathacks-a0e70</string>
+</resources>
