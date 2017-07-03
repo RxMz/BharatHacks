@@ -8,12 +8,24 @@
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_textfield_search_material.xml"
     },
     {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/gradient.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/gradient.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/gradient3.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/gradient3.xml"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/layout_bg.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/layout_bg.xml"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
@@ -68,20 +80,40 @@
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
-        "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/signup2.png",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/signup2.png"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_edit_text_material.xml"
     },
     {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/linear.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/linear.xml"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_google_signin_btn_text_light.xml"
     },
     {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/cornerround.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/cornerround.xml"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/gradient2.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/gradient2.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/signup.png",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/signup.png"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
@@ -98,6 +130,10 @@
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/layout_bg2.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/layout_bg2.xml"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/somegif.gif",
@@ -140,6 +176,10 @@
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_bg_low.xml"
     },
     {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/circular2.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/circular2.xml"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/notification_bg.xml"
     },
@@ -156,12 +196,20 @@
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/circular.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/circular.xml"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/shadow.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/shadow.xml"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/logo.png",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/drawable/logo.png"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
@@ -176,12 +224,12 @@
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
-        "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
-    },
-    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
         "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",

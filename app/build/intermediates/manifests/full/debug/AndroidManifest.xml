@@ -29,14 +29,20 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="tech.min.bharathacks.MainActivity" >
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity android:name="tech.min.bharathacks.Login_Start" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="tech.min.bharathacks.DetailsInput" />
+        <activity android:name="tech.min.bharathacks.LendOrLoan" />
+        <activity android:name="tech.min.bharathacks.MainActivity" />
+        <activity android:name="tech.min.bharathacks.Cards" />
+        <activity android:name="tech.min.bharathacks.profileOfBorrower" />
+        <activity android:name="tech.min.bharathacks.Aadhar" />
         <!--
          FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
@@ -89,6 +95,11 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true" >
@@ -101,11 +112,6 @@
             android:name="com.google.android.gms.measurement.AppMeasurementService"
             android:enabled="true"
             android:exported="false" />
-
-        <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-            android:exported="false"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>

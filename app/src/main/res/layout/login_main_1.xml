@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup2">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/logo"
+        android:id="@+id/imageView"
+        android:layout_marginTop="125dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#fefefe"
+        android:textSize="28sp"
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/gradient"
+            android:gravity="center"
+            android:text="Sign up with Aadhar"
+            android:textColor="#fefefe"
+            android:textSize="18sp"
+            android:id="@+id/signUpAdhar"
+            android:textAllCaps="false" />
+
+
+        <Button
+            android:id="@+id/signUpPhone"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#fefefe"
+            android:gravity="center"
+            android:text="Sign up with Phone"
+            android:textAllCaps="false"
+            android:textColor="#3a7bd5"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#303030"
+        android:textColor="#0ac2f8"
+        android:layout_centerVertical="true"
+        android:textSize="18sp"
+        android:id="@+id/Login"
+        android:gravity="center"
+        android:text="Already have an account? Login"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
