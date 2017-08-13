@@ -8,12 +8,15 @@ public class StuffInCard {
     private String description;
     private String loanType;
     private String loanAmount;
+    private String loanID;
 
-    public StuffInCard(String nameofuser, String description, String loanType, String loanAmount) {
+    public StuffInCard(String nameofuser, String description, String loanType, String loanAmount, String loanID) {
         this.nameofuser = nameofuser;
         this.description = description;
+        this.loanID = loanID;
         this.loanType = loanType;
         this.loanAmount = loanAmount;
+
     }
 
     public StuffInCard() {
@@ -36,4 +39,8 @@ public class StuffInCard {
         return loanAmount;
     }
 
+
+    public String getLoanID() {
+        return loanID;
+    }
 }

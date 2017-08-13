@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.andexert.library.RippleView;
 
@@ -25,6 +26,15 @@ public class Login_Start extends AppCompatActivity {
                 Intent intent= new Intent(Login_Start.this, Aadhar.class);
                 startActivity(intent);
 
+            }
+        });
+        TextView Login = (TextView) findViewById(R.id.Login);
+        Login.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent= new Intent(Login_Start.this, Aadhar.class);
+                startActivity(intent);
             }
         });
 

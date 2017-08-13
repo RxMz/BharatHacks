@@ -27,7 +27,7 @@ public class DetailsInput extends AppCompatActivity {
         final EditText loanType = (EditText)findViewById(R.id.loanType);
         final EditText loanA = (EditText)findViewById(R.id.amountRequired);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference();
+        databaseReference = FirebaseDatabase.getInstance().getReference("loanGuy");
         Button btn = (Button) findViewById(R.id.Submit);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,11 +38,11 @@ public class DetailsInput extends AppCompatActivity {
 
                 String loant = loanType.getText().toString();
                 String loanAmount = loanA.getText().toString();
-
-                StuffInCard kaObject = new StuffInCard(naam , description , loant,loanAmount);
+                String loanID = databaseReference.push().getKey();
+                StuffInCard kaObject = new StuffInCard(naam , description , loant,loanAmount,loanID);
                 if(kaObject==null)
                     Toast.makeText(getApplicationContext(),"NULL",Toast.LENGTH_LONG).show();
-                databaseReference.push().setValue(kaObject);
+                databaseReference.child(loanID).setValue(kaObject);
 
             }
         });

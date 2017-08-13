@@ -1,32 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86,armeabi-v7a"
-    api-level="19"
+    abi="armeabi-v7a,armeabi"
+    api-level="23"
     density="xhdpi"
     format="7"
-    timestamp="23434881782897" >
+    timestamp="13229504827025" >
 
     <task
         name="javac"
-        duration="277" />
+        duration="146" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="31" />
+        duration="42" />
     <task
         name="verifier"
         duration="1" />
 
     <artifact
-        location="/home/rishabh/Desktop/BharatHacks/app/build/outputs/apk/app-debug.apk"
-        type="MAIN" />
+        location="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+        type="DEX" />
 
-    <build timestamp="23434881782897" >
+    <build timestamp="11577990153797" >
         <artifact
             location="/home/rishabh/Desktop/BharatHacks/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
+    </build>
+    <build
+        timestamp="11933565499794"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
+    <build timestamp="13229504827025" >
+        <artifact
+            location="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_7/classes.dex"
+            type="DEX" />
     </build>
 
 </instant-run>

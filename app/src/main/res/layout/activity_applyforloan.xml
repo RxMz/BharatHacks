@@ -1,131 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fefefe"
-    android:orientation="vertical">
+    android:background="#fefefe">
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@drawable/gradient2">
-    </TextView>
-
-    <TextView
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:text="Fill in the below form to register for a loan, or call at 1800-4242-4242"
-        android:layout_gravity="center"
-
-        android:layout_marginTop="-170dp"
-        android:background="@android:color/transparent"
-        android:textAllCaps="false"
-        android:gravity="center"/>
+        android:layout_height="300dp"
+        android:background="@drawable/gradient2"/>
 
 
-            <ScrollView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ScrollView>
+
     <LinearLayout
         android:layout_width="350dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:background="@drawable/layout_bg"
         android:orientation="vertical"
-        android:layout_gravity="center">
+        android:layout_marginTop="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
             android:text="Describe your loan needs"
             android:textColor="#999999" />
 
         <EditText
+            android:id="@+id/Name"
             android:layout_width="290dp"
             android:layout_height="55dp"
-            android:hint="Name"
-            android:textColor="#000000"
-            android:textColorHint="#cccccc"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
             android:layout_marginTop="10dp"
-            android:id="@+id/Name"
-            android:textSize="12sp"
-            android:backgroundTint="#0ac2f8"/>
+            android:backgroundTint="#0ac2f8"
+            android:hint="Name"
+            android:textColor="#000000"
+            android:textColorHint="#cccccc"
+            android:textSize="12sp" />
 
         <EditText
+            android:id="@+id/Amount"
             android:layout_width="290dp"
             android:layout_height="55dp"
-            android:id="@+id/Amount"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#0ac2f8"
             android:hint="Amount"
             android:textColor="#000000"
             android:textColorHint="#cccccc"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:backgroundTint="#0ac2f8"/>
+            android:textSize="12sp" />
 
 
         <EditText
-            android:layout_width="290dp"
-            android:layout_height="55dp"
-            android:hint="Plan to return in months"
             android:id="@+id/timetoreturn"
-            android:textColorHint="#cccccc"
-            android:layout_marginLeft="30dp"
-            android:textColor="#000000"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:backgroundTint="#0ac2f8"/>
-        <EditText
             android:layout_width="290dp"
             android:layout_height="55dp"
-            android:hint="Description"
-            android:textColorHint="#cccccc"
-            android:textColor="#000000"
             android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#0ac2f8"
+            android:hint="Plan to return in months"
+            android:textColor="#000000"
+            android:textColorHint="#cccccc"
+            android:textSize="12sp" />
+
+        <EditText
             android:id="@+id/description"
-            android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:backgroundTint="#0ac2f8"/>
-        <EditText
             android:layout_width="290dp"
             android:layout_height="55dp"
-            android:textColor="#000000"
-            android:id="@+id/typeofloan"
-            android:hint="Loan Type"
-            android:textColorHint="#cccccc"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:textSize="12sp"
-            android:backgroundTint="#0ac2f8"/>
+            android:backgroundTint="#0ac2f8"
+            android:hint="Description"
+            android:textColor="#000000"
+            android:textColorHint="#cccccc"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/typeofloan"
+            android:layout_width="290dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="#0ac2f8"
+            android:hint="Loan Type"
+            android:textColor="#000000"
+            android:textColorHint="#cccccc"
+            android:textSize="12sp" />
 
 
         <Button
+            android:id="@+id/sub"
             android:layout_width="290dp"
             android:layout_height="60dp"
-            android:background="@drawable/gradient3"
+            android:layout_marginBottom="20dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"
-            android:id="@+id/sub"
             android:layout_marginTop="30dp"
-            android:layout_marginBottom="20dp"
+            android:background="@drawable/gradient3"
             android:text="Submit loan application" />
 
     </LinearLayout>
-            </ScrollView>
 
 
-</LinearLayout>
+</RelativeLayout>
 
-</LinearLayout>
+
+
+
+
+
+
+
+

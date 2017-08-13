@@ -20,41 +20,44 @@ public class profileOfBorrower extends AppCompatActivity {
 
 
     private DatabaseReference databaseReference;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_applyforloan);
-        MainActivity obj=new MainActivity();
+        MainActivity obj = new MainActivity();
         obj.init();
-        final EditText name = (EditText)findViewById(R.id.Name);
-        final EditText desc= (EditText)findViewById(R.id.description);
-        final EditText loanType = (EditText)findViewById(R.id.typeofloan);
-        final EditText loanA = (EditText)findViewById(R.id.Amount);
+        final EditText name = (EditText) findViewById(R.id.Name);
+        final EditText desc = (EditText) findViewById(R.id.description);
+        final EditText loanType = (EditText) findViewById(R.id.typeofloan);
+        final EditText loanA = (EditText) findViewById(R.id.Amount);
 
-        databaseReference = FirebaseDatabase.getInstance().getReference();
+        databaseReference = FirebaseDatabase.getInstance().getReference("LoanTaker");
 
-        Button s=(Button)findViewById(R.id.sub);
+        Button s = (Button) findViewById(R.id.sub);
         s.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                        String naama = name.getText().toString();
+                String naama = name.getText().toString();
 
-                        String descriptiona = desc.getText().toString();
+                String descriptiona = desc.getText().toString();
 
-                        String loanta = loanType.getText().toString();
-                        String loanAmounta = loanA.getText().toString();
+                String loanta = loanType.getText().toString();
+                String loanAmounta = loanA.getText().toString();
 
-                        StuffInCard kaObject = new StuffInCard(naama , descriptiona , loanta,loanAmounta);
-                        if(kaObject==null)
-                            Toast.makeText(getApplicationContext(),"NULL",Toast.LENGTH_LONG).show();
-                        databaseReference.push().setValue(kaObject);
-                Toast.makeText(getApplicationContext(),"Registered!",Toast.LENGTH_LONG).show();
+                String loanID = databaseReference.push().getKey();
+                StuffInCard kaObject = new StuffInCard(naama, descriptiona, loanta, loanAmounta, loanID);
+                if (kaObject == null)
+                    Toast.makeText(getApplicationContext(), "NULL", Toast.LENGTH_LONG).show();
+                databaseReference.child(loanID).setValue(kaObject);
 
-                Intent i3=new Intent(profileOfBorrower.this,MainActivity.class);
+                Toast.makeText(getApplicationContext(), "Registered!", Toast.LENGTH_LONG).show();
+
+                Intent i3 = new Intent(profileOfBorrower.this, MainActivity.class);
                 startActivity(i3);
 
-                    }
-                });
+            }
+        });
 
     }
 }

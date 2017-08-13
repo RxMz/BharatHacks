@@ -7,7 +7,7 @@
     android:background="#fefefe"
     android:orientation="vertical">
 
-    <TextView
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:background="@drawable/gradient2"/>

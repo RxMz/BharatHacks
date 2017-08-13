@@ -7,20 +7,20 @@
     android:background="@drawable/gradient2">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="580dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/layout_bg"
         android:orientation="vertical"
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp">
+        android:padding="5dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:gravity="center">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -28,14 +28,14 @@
                 android:layout_marginLeft="20dp"
                 android:text="Loan for: "
                 android:textColor="#222222"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Loan for University Of Waterloo"
                 android:textColor="#3a7bd5"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -49,8 +49,8 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -80,8 +80,8 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="5dp">
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -115,17 +115,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="20dp"
-            android:max="100"
-            android:progress="0"
-
             android:indeterminate="false"
-            android:secondaryProgress="100"/>
+            android:max="100"
+
+            android:progress="0"
+            android:secondaryProgress="100" />
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="25dp">
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -137,11 +137,11 @@
                 android:textSize="12sp" />
 
             <TextView
+                android:id="@+id/funPercent"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:text="0%"
-                android:id="@+id/funPercent"
                 android:textColor="#3a7bd5"
                 android:textSize="12sp" />
 
@@ -176,144 +176,94 @@
             android:orientation="vertical">
 
             <LinearLayout
-                android:layout_width="fill_parent"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="3">
+
 
                 <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="left"
-                    android:layout_marginLeft="20dp"
-                    android:textColor="#222222"
-                    android:textSize="12sp" />
-
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
                     android:text="NAME"
                     android:textColor="#222222"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="right"
-                    android:text="AMT"
-                    android:textColor="#222222"
-                    android:textSize="12sp"
-                    android:textAlignment="center"/>
-
-                <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="20dp"
-                    android:text="INT"
-                    android:textColor="#222222"
-                    android:textSize="12sp"
-                    android:textAlignment="center"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginTop="5dp">
-
-                <TextView
-                    android:layout_width="30dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="left"
-                    android:layout_marginLeft="20dp"
-                    android:text="#"
-                    android:visibility="invisible"
-                    android:id="@+id/hashtag"
-                    android:textColor="#222222"
-                    android:textSize="12sp"
-                    android:textAlignment="center"/>
-
-                <TextView
-                    android:layout_width="180dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="left"
-                    android:text="You"
-                    android:id="@+id/NameOfLender"
-                    android:visibility="invisible"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Amount"
+                    android:textAlignment="center"
                     android:textColor="#222222"
                     android:textSize="12sp" />
 
                 <TextView
-                    android:layout_width="50dp"
-                    android:layout_height="25dp"
-                    android:layout_gravity="right"
-                    android:text="1000"
-                    android:visibility="invisible"
-                    android:textColor="#222222"
-                    android:id="@+id/amount"
-                    android:textSize="12sp"
-                    android:textAlignment="center"/>
-
-                <TextView
-                    android:layout_width="50dp"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_marginRight="20dp"
-                    android:text="5%"
-                    android:visibility="invisible"
-                    android:id="@+id/percentageint"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Interest"
+                    android:textAlignment="center"
                     android:textColor="#222222"
-                    android:textSize="12sp"
-                    android:textAlignment="center"/>
+                    android:textSize="12sp" />
 
             </LinearLayout>
 
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/rv_give_loan"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"></android.support.v7.widget.RecyclerView>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
             android:orientation="horizontal"
-            android:layout_marginTop="160dp">
+            android:weightSum="3">
 
             <EditText
-                android:layout_width="90dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="20dp"
-                android:hint="Amount"
                 android:id="@+id/ETAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3a7bd5"
+                android:hint="Amount"
                 android:textColor="#000000"
                 android:textColorHint="#ababab"
-                android:backgroundTint="#3a7bd5"
                 android:textSize="12sp" />
 
             <EditText
-                android:layout_width="90dp"
-                android:layout_height="40dp"
+                android:id="@+id/ETinterestRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="#3a7bd5"
                 android:hint="Interest Rate"
                 android:textColor="#000000"
-                android:id="@+id/ETinterestRate"
                 android:textColorHint="#ababab"
-                android:backgroundTint="#3a7bd5"
                 android:textSize="12sp" />
 
             <Button
-                android:layout_width="120dp"
-                android:layout_height="40dp"
-                android:layout_marginLeft="10dp"
                 android:id="@+id/btnGiveLoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@drawable/gradient3"
                 android:text="Give Loan"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -342,8 +292,8 @@
         <LinearLayout
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="10dp">
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
 
             <TextView
                 android:layout_width="wrap_content"

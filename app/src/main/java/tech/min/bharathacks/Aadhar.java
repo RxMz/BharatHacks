@@ -21,7 +21,7 @@ public class Aadhar extends AppCompatActivity {
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final ProgressDialog dialog = ProgressDialog.show(Aadhar.this, "", "Confirming Login",
+                final ProgressDialog dialog = ProgressDialog.show(Aadhar.this, "", "Confirming Number and Name",
                         true);
                 dialog.show();
                 Handler handler = new Handler();
