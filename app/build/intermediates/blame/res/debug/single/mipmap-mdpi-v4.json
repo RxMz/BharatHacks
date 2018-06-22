@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/rishabh/Desktop/Rishabh/BharatHacks/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/rishabh/Desktop/BharatHacks/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/home/rishabh/Desktop/BharatHacks/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }

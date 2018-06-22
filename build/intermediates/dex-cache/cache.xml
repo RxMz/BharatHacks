@@ -2,172 +2,172 @@
 <items version="2" >
 
     <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-25.3.1_b8a6f360195337f878ce3f285b644584f3df6096.jar" />
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.0.1_9ef37881648f0663e32813ff420449fc303e1add.jar" />
     </item>
     <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-core-ui-25.3.1_0144e5d259244975772c377edf4b3daf25fd8a8c.jar" />
+        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-cardview-v7-25.0.1_54777c065f63771b98ea33326cbfef353d55b1fc.jar" />
     </item>
     <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
-        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.0.0_a46ad19e92cc56e55736bb93a69d8f727509189f.jar" />
+        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.0.0_06c0afde3372a1b2a937870992de5d91ac10f7d2.jar" />
     </item>
     <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
-        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.0.0_a1061b0c3813ae4d319e7495c59245ea8bbb703a.jar" />
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.1_4e3becd7c44de0234a7aa217bae5c0550d702438.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.0.0_69bee2ded663e99b45c3bb62d55de4866611936f.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.volley-volley-1.0.0_8dd2f42480c5430beb6188e54998aaf3be38a8d0.jar" />
     </item>
     <item
         jar="/home/rishabh/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
         jumboMode="false"
         revision="24.0.2"
         sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/support-annotations-25.3.1_c970acbfad1a5ceaae9a1d0540d73512e9e9e1f8.jar" />
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_c970acbfad1a5ceaae9a1d0540d73512e9e9e1f8.jar" />
     </item>
     <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.0.0_f2df17ca9c3375df47da5f1121d961db82bd8010.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="4ef8ab5fee042023018249474bc93bd4b2b9c17e">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.0.0_67b4ad41fcd837d7952bf0912581ad7ef5477b59.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.0.0_bc7b6ecf4102982e59a8c37426c5d236a20107fb.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-25.3.1_867a69139ebfbf37eeaf9f06428ffa13121d4635.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.volley/volley/1.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.volley-volley-1.0.0_f09e064bbff7df2f00689f2165b7cd3b851af8b9.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-9.0.0_5cf774879bd8fc7b1269db7121c70b6ba6943401.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-25.3.1_f03602bd77663710673e40689f56bb539252c001.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-fragment-25.3.1_7cdc07d063d877727a4d0cb98ffa1fba9593b293.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-25.3.1_964b6b175928837e9bf14e9e1ddb71c62fbf429c.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-media-compat-25.3.1_96fa49216c84b664b5b04f60c88fc6d797a9f29a.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-25.0.1_cfefb294d70e8f1481da87547c6b780fd1ebfae1.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.0.0_8d9b8ad9276d1364bea49244331b9013771c8c1c.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.0.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="1108575c7dc7b7f5b378b3290ac90de81a9b8830">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-cardview-v7-25.0.1_191471730dfd9eb7b7b390324dba7fee3a6482bc.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-compat-25.3.1_732886e6bc11ecd0130207550c80db6f173b1ea8.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.github.traex.rippleeffect-library-1.3_35b430b0dbccf6b7ff2f3775791b7a49703e3a31.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-9.0.0_cc29dfa2ce09721b3092f1eb1ddb8c72bc1f36c0.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="1941832901fc4e7a93300b53762e9f65d7650b99">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.0.0_2defaad5dd5fbe2b6dc82417a9292f70f1d59f97.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
-        jumboMode="false"
-        revision="24.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.android.support-support-core-utils-25.3.1_95f353a5d1dad9f4bcdc2e158b9a42d1a49331e1.jar" />
-    </item>
-    <item
-        jar="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.0/jars/classes.jar"
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.0.0/jars/classes.jar"
         jumboMode="false"
         revision="24.0.2"
         sha1="005786793d72c6deacbbbfd38177ed58e1aa6653">
-        <dex dex="/home/rishabh/Desktop/BharatHacks/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-9.0.0_7bf2936fab385265420a2bfd4515268ce6a97679.jar" />
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.0.0_fd97f36a9ad4d42ad3ee0433b480dd5ce144ebf0.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.github.traex.rippleeffect/library/1.3/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ee17feb34ce104bc17d1a1e64346d7f779ebb066">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.github.traex.rippleeffect-library-1.3_811f48606345db9824f6f6588b4b1e7d091eef2c.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.1_610ac18d7ea35c78794a39942e84274760faf2fc.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6f65c144283b31b4b9a70e6e7aa4c4a1c897d4b8">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.0.0_df8ce6f081b09046130668d17bb121e6a919a2fa.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.1_e0fc3d3c77624220b264d2cc39e40d0dce37d873.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.1_23040f42671b3463a8e5e8c223915c7ed5c4c61e.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.1_9d97bb8d4cdac5cb73394a11dac0c89fd0b7a2c1.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.1_ce0de5ff4ae3b5cc1d1a497fd078de12cae409ff.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.1_f09b47ec57eb1e71c123052abfb4f50c877a0227.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.1_55f1e5121756a9488fab3ba3cd6e21cd553003ef.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ef5c5c2afbd174d55cf1cfcac7d0346cbc4c1322">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.0.0_ede4a442b9b92998d81dc03f539dc68e02dc0773.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.1/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.1_f2d5efd4b68f8bf1b051f913204a3349d6667ac3.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="ea4b54dcbfe5ac05efb0a314105f07258118d3a7">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.0.0_fd44bd1b5b0ed2f6bab287b6bb7c7f89c487db12.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="32a5a566ae197603d0bed3e6d1d275f6a771564e">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.0.0_0821153d3c8b6aca8d9260afa81d6439e44b4cd9.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="42df48c7305b08b14fa0e84561091b0c24d70d26">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.0.0_ced5df4cd22edc00c211195b87b8e7269c38856d.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="cc178928721f3222b3b06bdfbd9497378ccb9792">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.0.0_fac6c9f02b274f74d67d6ba78734f2955134c866.jar" />
+    </item>
+    <item
+        jar="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="0dc8ab07eeceda5e99b305c8069765056b6e5c9d">
+        <dex dex="/home/rishabh/Desktop/Rishabh/BharatHacks/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.0.0_22e9e686459fd5270c644d1fd71c8804c33b5aaf.jar" />
     </item>
 
 </items>
